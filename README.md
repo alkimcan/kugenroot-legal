@@ -1,9 +1,8 @@
 # KuGeNRoot Legal Documents
 
-Bu repo, Kugen Maker Atölye tarafından sunulan KuGeNRoot mobil uygulamasına ait yasal belge sayfalarını içerir.
+Bu repo, Kugen Maker Atölye tarafından sunulan KuGeNRoot mobil uygulamasına ait güncellenmiş yasal belge sayfalarını içerir.
 
 ## Sayfalar
-
 - index.html
 - privacy-policy.html
 - terms-of-use.html
@@ -12,7 +11,3 @@ Bu repo, Kugen Maker Atölye tarafından sunulan KuGeNRoot mobil uygulamasına a
 - media-consent-notice.html
 - account-deletion.html
 - support.html
-
-## İletişim
-
-kugenmaker@gmail.com

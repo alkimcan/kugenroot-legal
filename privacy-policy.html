@@ -33,114 +33,40 @@
     h1, h2, h3 { color: var(--navy); line-height: 1.25; }
     a { color: var(--orange); font-weight: 700; }
     .small { color: var(--muted); font-size: 14px; }
-    .box {
-      background: #fff4eb;
-      border: 1px solid #ffd7b8;
-      border-radius: 14px;
-      padding: 16px;
-      margin: 14px 0;
-    }
-    .bluebox {
-      background: #f0f6ff;
-      border: 1px solid #cfe3ff;
-      border-radius: 14px;
-      padding: 16px;
-      margin: 14px 0;
-    }
-    ul { padding-left: 22px; }
     footer { margin-top: 28px; border-top: 1px solid var(--line); padding-top: 18px; }
   </style>
-
 </head>
 <body>
   <div class="card">
-
     <h1>KuGeNRoot Gizlilik Politikası</h1>
-    <p class="small">Son güncelleme: 11 Haziran 2026</p>
+    <p class="small">Son Güncelleme: 11 Haziran 2026</p>
 
-    <p>Bu Gizlilik Politikası, <strong>Kugen Maker Atölye</strong> tarafından sunulan KuGeNRoot mobil uygulamasının kullanıcı verilerini nasıl topladığını, kullandığını, sakladığını ve koruduğunu açıklar.</p>
+    <h2>1. Giriş ve Hedef Kitle Kapsamı</h2>
+    <p>KuGeNRoot, Kugen Maker Atölye süreçlerinin yönetilmesi amacıyla geliştirilmiş bir mobil uygulamadır. <strong>KuGeNRoot uygulaması doğrudan çocukların kullanımına yönelik bir platform olmayıp, kullanımı tamamen ergin veliler (yetişkinler) tarafından gerçekleştirilmektedir.</strong> Uygulama; veli ile kurum arasındaki eğitim takibi, muhasebe süreçleri ve zaman yönetimini koordine etmek, veli & atölye işbirliğini en üst düzeye çıkarmak amacıyla tasarlanmıştır.</p>
 
-    <h2>1. Uygulama Hakkında</h2>
-    <p>KuGeNRoot; KuGeN Maker atölye süreçlerinde üyelik, veli bilgilendirme, öğrenci başvuruları, duyurular, atölye kayıtları ve ödeme/fatura bilgilendirme süreçlerini yürütmek amacıyla kullanılan bir mobil uygulamadır.</p>
-
-    <h2>2. Temel Gizlilik İlkelerimiz</h2>
+    <h2>2. Toplanan Veriler ve Amacı</h2>
+    <p>Uygulama kapsamında velilerin kendi rızalarıyla sisteme kaydettiği şu veriler işlenmektedir:</p>
     <ul>
-      <li>Gereksiz veri toplamıyoruz.</li>
-      <li>Kullanıcı verilerini satmıyor veya ticari amaçla dağıtmıyoruz.</li>
-      <li>Veliye ait bilgiler ilgili veliye açıktır; dışarıya kapalıdır.</li>
-      <li>Öğrenci verileri yalnızca atölye, başvuru, kayıt, ödeme/fatura ve veli bilgilendirme süreçleri için kullanılır.</li>
-      <li>Reklam profillemesi, davranışsal reklamcılık veya üçüncü taraf pazarlama amacıyla veri işlemiyoruz.</li>
-      <li>Telefon üzerinde ihtiyaç dışı izin istemiyoruz.</li>
+      <li><strong>Veli Bilgileri:</strong> Ad, soyad, e-posta, telefon numarası.</li>
+      <li><strong>Öğrenci Bilgileri:</strong> Ad, soyad, yaş/doğum tarihi, okul ve sınıf bilgisi.</li>
     </ul>
+    <p><strong>Öğrenci Verilerinin İşlenme Amacı:</strong> Atölyede eğitim alacak öğrencilerin doğru sınıf ve atölye ortamında eğitim görmelerini sağlamak, eğitimde fırsat eşitliğini korumak ve öğrencilerin kendi akran grupları ile sağlıklı bir pedagojik ortamda eğitim almalarını temin etmektir.</p>
 
-    <h2>3. Toplanan Veriler</h2>
-    <p>Uygulama kapsamında aşağıdaki veriler işlenebilir:</p>
-    <ul>
-      <li>Veli/üye adı ve soyadı</li>
-      <li>E-posta adresi</li>
-      <li>Telefon numarası</li>
-      <li>Öğrenci adı, soyadı, yaş veya sınıf bilgisi</li>
-      <li>Atölye başvuru ve kayıt bilgileri</li>
-      <li>Atölye kabul, başvuru ve üyelik/veli durum bilgileri</li>
-      <li>Ödeme dönemi, borç/ödendi/kısmi/gecikmiş gibi ödeme durum bilgileri</li>
-      <li>Fatura ve muhasebe süreçleri için gerekli bilgiler</li>
-      <li>Duyuru görüntüleme ve okundu bilgileri</li>
-      <li>Oturum, hesap ve güvenlik bilgileri</li>
-    </ul>
+    <h2>3. Teknik Altyapı ve Veri Saklama</h2>
+    <p>Uygulamanın sorunsuz çalışması, veri bütünlüğü ve yüksek güvenlik standartlarının sağlanması amacıyla kullanıcı ve öğrenci verileri, güvenli bulut veritabanı hizmet sağlayıcımız olan <strong>Supabase</strong> altyapısında saklanmaktadır. Verileriniz üçüncü taraflara ticari amaçlarla satılmaz veya dağıtılmaz.</p>
 
-    <h2>4. Verilerin Kullanım Amacı</h2>
-    <ul>
-      <li>Üyelik ve veli hesabı oluşturmak</li>
-      <li>Atölye başvurularını almak ve takip etmek</li>
-      <li>Öğrenci bilgilerini veli hesabıyla ilişkilendirmek</li>
-      <li>Veliye duyuru, başvuru, atölye ve ödeme bilgilerini göstermek</li>
-      <li>Fatura, muhasebe ve yasal kayıt süreçlerini yürütmek</li>
-      <li>Kurum içi operasyon, kayıt ve veli iletişim süreçlerini yönetmek</li>
-      <li>Uygulama güvenliği ve rol bazlı yetkilendirmeyi sağlamak</li>
-    </ul>
+    <h2>4. Uygulama İçi Satın Alma ve Ödemeler</h2>
+    <p>KuGeNRoot uygulaması içinde herhangi bir dijital içerik satışı veya uygulama içi satın alma (In-App Purchase) özelliği bulunmamaktadır. Uygulamada gösterilen ödeme ve fatura bilgileri tamamen fiziki atölye süreçlerine ait bilgilendirme amaçlıdır. Atölye ödemeleri uygulama dışından; fiziki POS cihazları veya kurum resmi şirket hesabına yapılan EFT/Havale aracılığı ile gerçekleştirilmektedir.</p>
 
-    <h2>5. Uygulama İzinleri</h2>
-    <p>KuGeNRoot, telefonda ihtiyaç dışı izin istememeyi esas alır. Uygulama özelliklerine göre aşağıdaki izinler istenebilir:</p>
-    <ul>
-      <li><strong>Bildirim izni:</strong> Duyuru ve bilgilendirmelerin kullanıcıya iletilmesi için kullanılabilir.</li>
-      <li><strong>Fotoğraf/galeri erişimi:</strong> Kullanıcının profil veya başvuru gibi alanlarda kendi isteğiyle görsel eklemesi gerektiğinde kullanılabilir.</li>
-    </ul>
-    <p>Arama kayıtları, SMS içerikleri, rehber, konum veya mikrofon gibi uygulamanın temel amacı için gerekli olmayan izinler istenmez.</p>
+    <h2>5. Hesap Silme</h2>
+    <p>Kullanıcılar uygulama içerisindeki "Hesabı Sil" butonunu kullanarak hesap kapatma sürecini başlatabilirler. Muhasebe kaydı bulunmayan hesaplar derhal silinirken, aktif mali/muhasebe kaydı bulunan hesaplar ilgili durum çözülür çözülmez derhal kalıcı olarak silinmektedir.</p>
 
-    <h2>6. İletişim, Arama ve Mesaj Gönderimi</h2>
-    <p>Kugen Maker Atölye, gerekmedikçe kullanıcıya arama, mesaj veya bildirim göndermez. İletişim, atölye süreçleri, başvuru, ödeme/fatura, duyuru ve gerekli bilgilendirme amaçlarıyla sınırlıdır.</p>
-
-    <h2>7. Reklam ve Tanıtım</h2>
-    <p>KuGeNRoot üzerinden reklam, üçüncü taraf pazarlama veya davranışsal reklam profillemesi yapılmaz. Kurum tanıtımı, atölye ve çalışmalarımız kapsamındaki duyuru ve bilgilendirmelerle sınırlıdır.</p>
-
-    <h2>8. Çocuk Verileri</h2>
-    <p>Öğrenci verileri yalnızca veli/üye tarafından yapılan başvuru, kayıt, atölye, ödeme ve bilgilendirme süreçleri için işlenir. Çocuk haklarına uygun hareket edilir. Öğrenci verileri reklam veya ticari profilleme amacıyla kullanılmaz.</p>
-
-    <h2>9. Görsel ve Etkinlik Paylaşımları</h2>
-    <p>Atölye, çalışma, gezi, turnuva, etkinlik ve benzeri faaliyetlere ilişkin fotoğraf/video gibi görsel paylaşımlar için veliden ayrıca izin alınır. Bu izin; kurum adı, kurum çalışanları ve öğrencinin katıldığı faaliyet kapsamında sosyal medya, kurum çevrimiçi platformları veya tanıtım materyallerinde paylaşım yapılmasına yöneliktir. Ayrı izin olmadan öğrencinin görseli genel tanıtım amacıyla kullanılmaz.</p>
-
-    <h2>10. Verilerin Saklanması</h2>
-    <p>Veriler güvenli bulut veritabanı altyapısında saklanır. Verilere erişim rol bazlı yetkilendirme ve güvenlik kuralları ile sınırlandırılır. Veli, kendisi ve bağlı öğrencisiyle ilgili verilere erişebilir; yetkisiz kişiler bu bilgilere erişemez.</p>
-
-    <h2>11. Verilerin Paylaşımı</h2>
-    <p>Kullanıcı verileri üçüncü kişilere ticari amaçla satılmaz veya dağıtılmaz. Veriler yalnızca yasal zorunluluklar, muhasebe/fatura süreçleri, teknik altyapı hizmetleri veya uygulamanın çalışması için gerekli durumlarda işlenebilir.</p>
-
-    <h2>12. Hesap Silme ve Arşivleme</h2>
-    <p>Veli hesabının silinmesini talep edebilir. Muhasebe ve yasal kayıt yükümlülükleri tamamlandıktan sonra hesap silinebilir veya arşivlenebilir. Atölye ile ilişkisi kesilen veli hesabı önce member seviyesine alınabilir; uygulama ile ilişkisi tamamen bittiğinde hesap arşive gönderilip sonraki yıl silinebilir. Veli talebiyle daha kısa sürede silme süreci değerlendirilebilir.</p>
-
-    <h2>13. Güvenlik</h2>
-    <p>Uygulamada kullanıcı yetkilendirme, rol bazlı erişim ve veritabanı güvenlik kuralları uygulanır. Buna rağmen internet üzerinden veri aktarımının tamamen risksiz olduğu garanti edilemez.</p>
-
-    <h2>14. İletişim</h2>
-    <p>Gizlilik politikası, veri talepleri veya hesap silme süreçleri için bizimle iletişime geçebilirsiniz:</p>
-    <p><strong>E-posta:</strong> kugenmaker@gmail.com</p>
-
-    <h2>15. Değişiklikler</h2>
-    <p>Bu politika zaman zaman güncellenebilir. Güncel sürüm bu sayfada yayımlanır.</p>
+    <h2>6. İletişim</h2>
+    <p>Gizlilik politikasına dair sorularınız için bizimle iletişime geçebilirsiniz:</p>
+    <p><strong>E-posta:</strong> kugenmaker@gmail.com<br><strong>Telefon:</strong> 0541 711 22 24</p>
 
     <footer>
-      <p><a href="index.html">← Yasal belgeler ana sayfasına dön</a></p>
-      <p class="small">© Kugen Maker Atölye. Bu sayfa KuGeNRoot uygulaması için hazırlanmıştır.</p>
+      <p><a href="index.html">← Yasal Belgeler Ana Sayfasına Dön</a></p>
     </footer>
   </div>
 </body>

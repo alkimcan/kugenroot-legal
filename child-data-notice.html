@@ -33,77 +33,30 @@
     h1, h2, h3 { color: var(--navy); line-height: 1.25; }
     a { color: var(--orange); font-weight: 700; }
     .small { color: var(--muted); font-size: 14px; }
-    .box {
-      background: #fff4eb;
-      border: 1px solid #ffd7b8;
-      border-radius: 14px;
-      padding: 16px;
-      margin: 14px 0;
-    }
-    .bluebox {
-      background: #f0f6ff;
-      border: 1px solid #cfe3ff;
-      border-radius: 14px;
-      padding: 16px;
-      margin: 14px 0;
-    }
-    ul { padding-left: 22px; }
     footer { margin-top: 28px; border-top: 1px solid var(--line); padding-top: 18px; }
   </style>
-
 </head>
 <body>
   <div class="card">
-
     <h1>KuGeNRoot Çocuk Verileri Bilgilendirmesi</h1>
-    <p class="small">Son güncelleme: 11 Haziran 2026</p>
+    <p class="small">Son Güncelleme: 11 Haziran 2026</p>
 
-    <p>KuGeNRoot, Kugen Maker Atölye atölye süreçlerinde veli bilgilendirme ve öğrenci başvuru takibi amacıyla kullanılmaktadır. Bu nedenle uygulama kapsamında öğrencilere ait bazı bilgiler işlenebilir.</p>
+    <h2>1. Veri Toplamanın Pedagojik Amacı</h2>
+    <p>Atölyemizde eğitim alacak hedef kitlenin öğrenci olması sebebiyle; öğrencilerin ad, soyad, yaş, okul ve sınıf gibi bilgileri işlenmektedir. Bu bilgilerin talep edilmesindeki yegane amaç; öğrencilerimize doğru sınıf seviyesinde ve doğru atölye ortamında eğitim vererek <strong>eğitimde fırsat eşitliği</strong> sağlamak, pedagojik gelişim süreçlerini korumak ve kendi akranları ile eş zamanlı eğitim almalarını temin etmektir.</p>
 
-    <h2>1. Hangi Çocuk Verileri İşlenebilir?</h2>
-    <ul>
-      <li>Öğrenci adı ve soyadı</li>
-      <li>Yaş veya sınıf bilgisi</li>
-      <li>Atölye başvuru ve program tercihleri</li>
-      <li>Atölye kayıt ve kabul durumu</li>
-      <li>Ödeme dönemi ve veli bilgilendirme durumu</li>
-      <li>Veli izni varsa etkinlik/görsel paylaşım izin bilgisi</li>
-    </ul>
+    <h2>2. Uygulamanın Kullanım Yapısı</h2>
+    <p>KuGeNRoot uygulaması doğrudan çocukların/öğrencilerin cihazlarına yükleyip çalıştıracakları bir platform değildir. Uygulamanın kullanımı tamamen <strong>veli tarafından</strong> gerçekleştirilmektedir. Bu uygulama, veli ile kurum arasındaki eğitim takibi, muhasebe süreçleri ve zaman yönetimi ihtiyaçlarını karşılayan, veli & atölye işbirliğini amaçlayan bir yönetim aracıdır.</p>
 
-    <h2>2. Veriler Hangi Amaçla Kullanılır?</h2>
-    <ul>
-      <li>Atölye başvurusu almak</li>
-      <li>Öğrenciyi veli hesabıyla ilişkilendirmek</li>
-      <li>Başvuru ve kayıt durumunu takip etmek</li>
-      <li>Veliye atölye, ödeme ve duyuru bilgilerini göstermek</li>
-      <li>KuGeN Maker operasyon süreçlerini yürütmek</li>
-      <li>Etkinlik, gezi, turnuva ve atölye faaliyetlerini organize etmek</li>
-    </ul>
+    <h2>3. Güvenlik ve Bulut Altyapısı</h2>
+    <p>Çocuklarınıza ait hassas eğitim ve tanımlama verileri, en yüksek veri güvenliği standartlarında korunmaktadır. Veritabanı yönetim süreçleri güvenli bulut servis sağlayıcısı olan <strong>Supabase</strong> altyapısı üzerinde rol bazlı erişim yetkilendirmeleriyle korunmaktadır.</p>
 
-    <h2>3. Reklam ve Profilleme</h2>
-    <p>Öğrenci verileri reklam, davranışsal pazarlama veya ticari profilleme amacıyla kullanılmaz. Öğrenci verileri üçüncü kişilere satılmaz veya dağıtılmaz.</p>
+    <h2>4. Veli Kontrolü ve Haklar</h2>
+    <p>Veliler, uygulama içerisindeki "Hesabı Sil" butonunu kullanarak çocuklarına ve kendilerine ait verilerin sistemden kaldırılmasını her zaman talep edebilirler. Muhasebe veya yasal yükümlülük engeli taşımayan hesap ve öğrenci kayıtları anında silinir.</p>
 
-    <h2>4. İzinler ve Görsel Paylaşımlar</h2>
-    <p>Öğrencinin atölye, çalışma, gezi, turnuva veya kurum faaliyetlerine ilişkin fotoğraf/video görüntüleri; sosyal medya, kurum çevrimiçi platformları veya tanıtım materyallerinde ancak veliden ayrıca izin alınması halinde paylaşılabilir.</p>
-
-    <h2>5. Kimler Erişebilir?</h2>
-    <p>Öğrenci bilgilerine yalnızca ilgili veli hesabı ve Kugen Maker Atölye tarafından yetkilendirilmiş operasyon/yönetim kullanıcıları erişebilir. Erişimler rol ve yetki kurallarıyla sınırlandırılır.</p>
-
-    <h2>6. Veli Kontrolü</h2>
-    <p>Veli, uygulama üzerinden öğrenciye ait başvuru, kayıt, ödeme ve duyuru bilgilerini görüntüleyebilir. Verilerle ilgili düzeltme veya silme talepleri için destek kanallarından iletişime geçilebilir.</p>
-
-    <h2>7. Saklama</h2>
-    <p>Öğrenci verileri başvuru ve atölye süreçlerinin yürütülmesi için gerekli süre boyunca saklanır. Yasal veya operasyonel gereklilikler sona erdiğinde veriler silinebilir, yok edilebilir veya anonim hale getirilebilir.</p>
-
-    <h2>8. Çocuk Haklarına Yaklaşım</h2>
-    <p>Kugen Maker Atölye, çocuk haklarına saygılı hareket etmeyi, öğrenci verilerini yalnızca gerekli kapsamda işlemeyi ve öğrencilerin mahremiyetini korumayı esas alır.</p>
-
-    <h2>9. İletişim</h2>
-    <p><strong>E-posta:</strong> kugenmaker@gmail.com</p>
+    <p><strong>E-posta:</strong> kugenmaker@gmail.com<br><strong>Telefon:</strong> 0541 711 22 24</p>
 
     <footer>
-      <p><a href="index.html">← Yasal belgeler ana sayfasına dön</a></p>
-      <p class="small">© Kugen Maker Atölye. Bu sayfa KuGeNRoot uygulaması için hazırlanmıştır.</p>
+      <p><a href="index.html">← Yasal Belgeler Ana Sayfasına Dön</a></p>
     </footer>
   </div>
 </body>

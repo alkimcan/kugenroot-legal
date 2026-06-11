@@ -33,74 +33,39 @@
     h1, h2, h3 { color: var(--navy); line-height: 1.25; }
     a { color: var(--orange); font-weight: 700; }
     .small { color: var(--muted); font-size: 14px; }
-    .box {
-      background: #fff4eb;
-      border: 1px solid #ffd7b8;
-      border-radius: 14px;
-      padding: 16px;
-      margin: 14px 0;
-    }
-    .bluebox {
-      background: #f0f6ff;
-      border: 1px solid #cfe3ff;
-      border-radius: 14px;
-      padding: 16px;
-      margin: 14px 0;
-    }
-    ul { padding-left: 22px; }
     footer { margin-top: 28px; border-top: 1px solid var(--line); padding-top: 18px; }
   </style>
-
 </head>
 <body>
   <div class="card">
-
     <h1>KuGeNRoot Hesap Silme Talimatı</h1>
-    <p class="small">Son güncelleme: 11 Haziran 2026</p>
+    <p class="small">Son Güncelleme: 11 Haziran 2026</p>
 
-    <p>KuGeNRoot kullanıcıları hesap silme, arşivleme ve kişisel veri talepleri için aşağıdaki adımları izleyebilir.</p>
+    <h2>1. Hesap Silme İşlemi</h2>
+    <p>KuGeNRoot uygulaması içerisinde, kullanıcıların hesaplarını doğrudan kapatabilmeleri için bir "Hesabı Sil" butonu mevcuttur. Kullanıcılar bu butonu kullanarak hesap silme talebini uygulama içinden anında başlatabilirler.</p>
 
-    <h2>1. Çıkış Yapma Hesap Silme Değildir</h2>
-    <p>Profil ekranında yer alan “Çıkış Yap” seçeneği yalnızca bu cihazdaki oturumu kapatır. Bu işlem hesabı silmez.</p>
-
-    <h2>2. Hesap Silme Talebi Nasıl Gönderilir?</h2>
-    <p>Hesabınızın silinmesini talep etmek için aşağıdaki e-posta adresine başvuru gönderebilirsiniz:</p>
-
-    <div class="box">
-      <p><strong>E-posta:</strong> kugenmaker@gmail.com</p>
-      <p><strong>Konu:</strong> KuGeNRoot Hesap Silme Talebi</p>
-    </div>
-
-    <p>E-postanızda aşağıdaki bilgileri paylaşmanız işlemin daha hızlı yapılmasını sağlar:</p>
+    <h2>2. İşlem Süreci ve Muhasebe Kontrolü</h2>
+    <p>Uygulama üzerinden hesap silme butonu kullanıldığında süreç şu şekilde işler:</p>
     <ul>
-      <li>Ad ve soyad</li>
-      <li>Uygulamada kullandığınız e-posta adresi</li>
-      <li>Telefon numarası, varsa</li>
-      <li>Bağlı öğrenci adı, varsa</li>
-      <li>Hesap silme talebinizi açıkça belirten kısa açıklama</li>
+      <li><strong>Muhasebe Kaydı Bulunmayan Hesaplar:</strong> Kullanıcının atölye süreçlerine dair herhangi bir açık muhasebe, borç/alacak veya fatura kaydı bulunmuyorsa, hesap silme işlemi derhal ve otomatik olarak gerçekleştirilir.</li>
+      <li><strong>Muhasebe Kaydı Bulunan Hesaplar:</strong> Kullanıcıya ait aktif veya çözülmemiş bir muhasebe kaydı olması durumunda, finansal mutabakat ve yasal yükümlülüklerin korunması amacıyla hesap askıya alınır. İlgili muhasebe kaydı/uyuşmazlığı çözülür çözülmez silme işlemi derhal tamamlanır.</li>
     </ul>
 
     <h2>3. Hangi Veriler Silinir?</h2>
-    <p>Talep onaylandığında uygulama hesabınız ve hesabınızla ilişkili kişisel veriler silinebilir, anonim hale getirilebilir veya yasal gereklilikler nedeniyle arşivlenebilir.</p>
+    <p>Talep onaylandığında ve finansal/yasal bir engel kalmadığında, uygulama hesabınız ve hesabınızla ilişkili kişisel veriler silinir veya anonim hale getirilir.</p>
 
     <h2>4. Hangi Veriler Saklanabilir?</h2>
-    <p>Muhasebe kayıtları, fatura bilgileri, ödeme/tahsilat kayıtları, yasal yükümlülükler, uyuşmazlıkların çözümü veya güvenlik gerekçeleriyle bazı veriler mevzuatın gerektirdiği süre boyunca saklanabilir.</p>
+    <p>Resmi muhasebe kayıtları, fatura bilgileri, ödeme/tahsilat makbuzları ve mevzuattan kaynaklanan yasal yükümlülükler nedeniyle, belirli veriler kanunun öngördüğü zorunlu süreler boyunca arşiv altında tutulmaya devam edebilir.</p>
 
     <h2>5. Atölye İlişkisi Biten Hesaplar</h2>
-    <p>Atölye ile ilişkisi kesilen veli hesabı önce member seviyesine alınabilir. Uygulama ile ilişki tamamen bittiğinde hesap arşive gönderilebilir ve takip eden yıl silinebilir. Veli talebiyle daha kısa sürede silme süreci değerlendirilebilir.</p>
+    <p>Atölye ile aktif eğitimi veya ilişkisi kesilen veli hesapları, uygulama içi güvenlik mimarisi gereği önce "member" (üye) seviyesine çekilebilir veya arşive gönderilebilir. Resmi ve mali yükümlülük sürelerinin dolmasını takip eden ilk yıl içinde bu veriler tamamen silinir.</p>
 
-    <h2>6. İşlem Süresi</h2>
-    <p>Hesap silme talepleri makul süre içinde değerlendirilir. Talebin doğrulanması için sizinle iletişime geçilebilir.</p>
-
-    <h2>7. Öğrenci Verileri</h2>
-    <p>Veli hesabına bağlı öğrenci bilgileri de talep kapsamında değerlendirilir. Ancak atölye kayıtları, ödeme/fatura kayıtları veya yasal saklama yükümlülükleri nedeniyle bazı bilgiler belirli süreyle saklanabilir.</p>
-
-    <h2>8. İletişim</h2>
-    <p><strong>E-posta:</strong> kugenmaker@gmail.com</p>
+    <h2>6. İletişim ve Destek</h2>
+    <p>Hesap silme butonuna erişim sağlayamadığınız durumlarda veya süreç hakkındaki sorularınız için destek kanallarımız üzerinden bizimle iletişime geçebilirsiniz.</p>
+    <p><strong>E-posta:</strong> kugenmaker@gmail.com<br><strong>Telefon:</strong> 0541 711 22 24</p>
 
     <footer>
-      <p><a href="index.html">← Yasal belgeler ana sayfasına dön</a></p>
-      <p class="small">© Kugen Maker Atölye. Bu sayfa KuGeNRoot uygulaması için hazırlanmıştır.</p>
+      <p><a href="index.html">← Yasal Belgeler Ana Sayfasına Dön</a></p>
     </footer>
   </div>
 </body>
