@@ -5,46 +5,78 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>KuGeNRoot Yasal Belgeler</title>
   <style>
+    :root {
+      --navy: #06263d;
+      --orange: #ff6b00;
+      --text: #172033;
+      --muted: #667085;
+      --bg: #f6f8fb;
+      --card: #ffffff;
+      --line: #e5eaf2;
+    }
     body {
       font-family: Arial, sans-serif;
-      max-width: 860px;
+      max-width: 920px;
       margin: 40px auto;
       padding: 0 20px;
-      line-height: 1.6;
-      color: #172033;
-      background: #f6f8fb;
+      line-height: 1.7;
+      color: var(--text);
+      background: var(--bg);
     }
     .card {
-      background: white;
+      background: var(--card);
       border-radius: 18px;
-      padding: 28px;
-      box-shadow: 0 10px 30px rgba(15, 30, 60, .08);
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(15,30,60,.08);
+      border: 1px solid var(--line);
     }
-    h1 { color: #06263d; }
-    a {
-      display: block;
-      padding: 12px 0;
-      color: #ff6b00;
-      font-weight: 700;
-      text-decoration: none;
+    h1, h2, h3 { color: var(--navy); line-height: 1.25; }
+    a { color: var(--orange); font-weight: 700; }
+    .small { color: var(--muted); font-size: 14px; }
+    .box {
+      background: #fff4eb;
+      border: 1px solid #ffd7b8;
+      border-radius: 14px;
+      padding: 16px;
+      margin: 14px 0;
     }
-    a:hover { text-decoration: underline; }
-    .small { color: #667085; font-size: 14px; }
+    .bluebox {
+      background: #f0f6ff;
+      border: 1px solid #cfe3ff;
+      border-radius: 14px;
+      padding: 16px;
+      margin: 14px 0;
+    }
+    ul { padding-left: 22px; }
+    footer { margin-top: 28px; border-top: 1px solid var(--line); padding-top: 18px; }
   </style>
+
 </head>
 <body>
   <div class="card">
+
     <h1>KuGeNRoot Yasal Belgeler</h1>
-    <p>KuGeNRoot uygulamasına ait yasal bilgilendirme ve destek sayfaları.</p>
-
-    <a href="privacy-policy.html">Gizlilik Politikası</a>
-    <a href="terms-of-use.html">Kullanım Koşulları</a>
-    <a href="kvkk-aydinlatma-metni.html">KVKK Aydınlatma Metni</a>
-    <a href="child-data-notice.html">Çocuk Verileri Bilgilendirmesi</a>
-    <a href="account-deletion.html">Hesap Silme Talimatı</a>
-    <a href="support.html">Destek ve İletişim</a>
-
     <p class="small">Son güncelleme: 11 Haziran 2026</p>
+    <p><strong>Kugen Maker Atölye</strong> tarafından sunulan KuGeNRoot uygulamasına ait yasal bilgilendirme ve destek sayfaları.</p>
+
+    <h2>Belgeler</h2>
+    <p><a href="privacy-policy.html">Gizlilik Politikası</a></p>
+    <p><a href="terms-of-use.html">Kullanım Koşulları</a></p>
+    <p><a href="kvkk-aydinlatma-metni.html">KVKK Aydınlatma Metni</a></p>
+    <p><a href="child-data-notice.html">Çocuk Verileri Bilgilendirmesi</a></p>
+    <p><a href="media-consent-notice.html">Etkinlik ve Görsel Paylaşım Bilgilendirmesi</a></p>
+    <p><a href="account-deletion.html">Hesap Silme Talimatı</a></p>
+    <p><a href="support.html">Destek ve İletişim</a></p>
+
+    <div class="bluebox">
+      <p><strong>İletişim:</strong> kugenmaker@gmail.com</p>
+      <p>Bu belgeler KuGeNRoot mobil uygulaması, atölye başvuru, veli bilgilendirme, ödeme/fatura bilgilendirme ve duyuru süreçleri için hazırlanmıştır.</p>
+    </div>
+
+    <footer>
+      <p><a href="index.html">← Yasal belgeler ana sayfasına dön</a></p>
+      <p class="small">© Kugen Maker Atölye. Bu sayfa KuGeNRoot uygulaması için hazırlanmıştır.</p>
+    </footer>
   </div>
 </body>
 </html>
